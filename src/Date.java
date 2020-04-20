@@ -98,8 +98,11 @@ public class Date {
 				tempMonth--;
 			}
 			
-			count += daysIn(tempMonth);
-			tempMonth--;
+			else {
+				count += daysIn(tempMonth);
+				tempMonth--;
+			}
+			
 		}
 		
 		if ((other.getMonth()>this.month)||(other.getYear()>this.year)) {
