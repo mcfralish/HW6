@@ -69,5 +69,9 @@ public class NBATeam {
 	public int getNumOfPlayer() {
 		return players.size();
 	}
+	
+	public String getPlayerName(int i) {
+		return players.get(i).getName();
+	}
 
 }
